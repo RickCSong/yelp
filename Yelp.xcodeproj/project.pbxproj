@@ -15,6 +15,10 @@
 		222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D8A7C19CCFAE000D2DB53 /* YelpClient.swift */; };
 		22AAAA991AEA0A9700A544AF /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA981AEA0A9700A544AF /* Business.swift */; };
 		22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */; };
+		533B80991C6FF37C006020B8 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B80981C6FF37C006020B8 /* BusinessTableViewCell.swift */; };
+		533B809D1C700003006020B8 /* BusinessFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B809C1C700003006020B8 /* BusinessFiltersViewController.swift */; };
+		533B809F1C700BF8006020B8 /* BusinessFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B809E1C700BF8006020B8 /* BusinessFilters.swift */; };
+		533B80A11C701716006020B8 /* BusinessFilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B80A01C701716006020B8 /* BusinessFilterTableViewCell.swift */; };
 		90B718C590BD546DEFEF0D61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,10 @@
 		222D8A7C19CCFAE000D2DB53 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		22AAAA981AEA0A9700A544AF /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
+		533B80981C6FF37C006020B8 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		533B809C1C700003006020B8 /* BusinessFiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessFiltersViewController.swift; sourceTree = "<group>"; };
+		533B809E1C700BF8006020B8 /* BusinessFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessFilters.swift; sourceTree = "<group>"; };
+		533B80A01C701716006020B8 /* BusinessFilterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessFilterTableViewCell.swift; sourceTree = "<group>"; };
 		97D8B2E3FFD1AF4F4A707E47 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD540129B10DFE60E8C24E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				22AAAA981AEA0A9700A544AF /* Business.swift */,
+				533B809E1C700BF8006020B8 /* BusinessFilters.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -144,7 +153,10 @@
 		22AAAA9D1AEA1EC600A544AF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				533B80981C6FF37C006020B8 /* BusinessTableViewCell.swift */,
 				22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */,
+				533B809C1C700003006020B8 /* BusinessFiltersViewController.swift */,
+				533B80A01C701716006020B8 /* BusinessFilterTableViewCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -319,9 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533B80A11C701716006020B8 /* BusinessFilterTableViewCell.swift in Sources */,
+				533B80991C6FF37C006020B8 /* BusinessTableViewCell.swift in Sources */,
+				533B809F1C700BF8006020B8 /* BusinessFilters.swift in Sources */,
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
 				22AAAA991AEA0A9700A544AF /* Business.swift in Sources */,
 				222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */,
+				533B809D1C700003006020B8 /* BusinessFiltersViewController.swift in Sources */,
 				222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
